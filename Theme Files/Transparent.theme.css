@@ -1,14 +1,14 @@
 //META{"name":"Transparent","description":"The completely free, customizable, modernized, superior theme for Discord!","author":"Kya","version":"0.0"}*//
 
 /* IMPORT CSS FROM GITHUB */
-@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/discord-reborn.css");
+@import url("https://rawgit.com/P-o-u-t/Recreation/master/Source/Transparent.css");
 /*
 ===== IMPORTANT =====
 USE DARK THEME IN USER-SETTINGS TO USE THIS THEME.
 ===== CUSTOMIZABLE COLORS =====
 */
 :root {
-	  --main-color: #e29c41;
+    --main-color: #e29c41;
     --hover-color: #d68f33;
  }
  /*
