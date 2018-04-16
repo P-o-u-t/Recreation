@@ -1,2 +1,3 @@
-# Recreation
-Fleshing out paid themes for free, with better updates and less spaghetti ass code.
+# **I need help!**
+#### **Join us:**
+> https://discord.gg/H8Jyszq
