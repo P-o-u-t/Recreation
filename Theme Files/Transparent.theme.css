@@ -1,0 +1,27 @@
+//META{"name":"Transparent","description":"The completely free, customizable, modernized, superior theme for Discord!","author":"Kya","version":"0.0"}*//
+
+/* IMPORT CSS FROM GITHUB */
+@import url("https://rawgit.com/0mniscient/Discord-Themes/master/css/discord-reborn.css");
+/*
+===== IMPORTANT =====
+USE DARK THEME IN USER-SETTINGS TO USE THIS THEME.
+===== CUSTOMIZABLE COLORS =====
+*/
+:root {
+	  --main-color: #e29c41;
+    --hover-color: #d68f33;
+ }
+ /*
+===== CUSTOMIZABLE IMAGES =====
+IMPORTANT: EVERY URL MUST BE HTTPS:// IN ORDER TO WORK IN DISCORD
+BACKGROUND: CHANGE THE URL DOWN BELOW TO CHANGE THE BACKGROUND IMAGE
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+.callout-backdrop, .appMount-14L89u {
+  background-image: url("https://i.imgur.com/vHDQY7N.jpg") !important;
+}
+/*
+===== TROUBLESHOOTING =====
+IF YOU NEED ANY HELP JOIN THIS SERVER: https://discord.gg/H8Jyszq
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
