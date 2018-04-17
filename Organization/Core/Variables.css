@@ -1,0 +1,73 @@
+/* Dark Mode Settings */
+
+.app.theme-dark, .theme-dark, .theme-dark .theme-light, .theme-dark.popouts, .theme-light.popouts+.tooltips, .tooltips+.theme-dark {
+  --primary-color: #19191b;
+  /* primary background color */
+  --secondary-color: #1E1E21;
+  /* secondary background color */
+  --tertiary-color: #232327;
+  /* tertiary background color */
+  --quaternary-color: #101011;
+  /* quaternary background color */
+  --rs-spacing: 2px;
+  /* spacing between avatar and status */
+  --rs-width: 2px;
+  /* width of the status */
+  --rs-popout-spacing: 3px;
+  /* spacing between avatar and status for user popouts */
+  --rs-popout-width: 4px;
+  /* width of the status for user popouts */
+  --rs-profile-spacing: 3px;
+  /* spacing between avatar and status on modals/profiles */
+  --rs-profile-width: 4px;
+  /* width of the status on modals/profiles */
+  --rs-online-color: #43b581;
+  /* color for online status */
+  --rs-idle-color: #faa61a;
+  /* color for idle status */
+  --rs-dnd-color: #f04747;
+  /* color for dnd status */
+  --rs-offline-color: #636b75;
+  /* color for offline status */
+  --rs-invisible-color: #747f8d;
+  /* color for invisible status */
+  --rs-streaming-color: #643da7;
+  /* color for streaming status */
+}
+
+/* Light Mode Settings */
+
+.app.theme-light, .theme-light, .theme-light .theme-light, .theme-light.popouts, .theme-light.popouts+.tooltips, .tooltips+.theme-light {
+  --primary-color: #ffffff;
+  /* primary background color */
+  --secondary-color: #f3f3f3;
+  /* secondary background color */
+  --tertiary-color: #eeeeee;
+  /* tertiary background color */
+  --quaternary-color: #dbdbdb;
+  /* quaternary background color */
+  --rs-spacing: 2px;
+  /* spacing between avatar and status */
+  --rs-width: 2px;
+  /* width of the status */
+  --rs-popout-spacing: 3px;
+  /* spacing between avatar and status for user popouts */
+  --rs-popout-width: 4px;
+  /* width of the status for user popouts */
+  --rs-profile-spacing: 3px;
+  /* spacing between avatar and status on modals/profiles */
+  --rs-profile-width: 4px;
+  /* width of the status on modals/profiles */
+  --rs-online-color: #43b581;
+  /* color for online status */
+  --rs-idle-color: #faa61a;
+  /* color for idle status */
+  --rs-dnd-color: #f04747;
+  /* color for dnd status */
+  --rs-offline-color: #636b75;
+  /* color for offline status */
+  --rs-invisible-color: #747f8d;
+  /* color for invisible status */
+  --rs-streaming-color: #643da7;
+  /* color for streaming status */
+}
