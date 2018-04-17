@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html,
+body {
+    margin: 0;
+}
+/* For the "inset" look only */
+html {
+    overflow: auto;
+}
+body {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    padding-right: 30px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #191919;
+    color: #ccc;
+}
+
+/* Let's get this party started */
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background: #222;
+}   
+ 
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #ccc;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    height: 120vh;
+}
+.title {
+    font-size: 2.3em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    letter-spacing: .3em;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 30px 0;
+    border-bottom: solid #ccc 2px;
+    border-top: solid #ccc 2px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ul a {
+    text-decoration: none;
+    color: #ccc;
+}
+.nav li {
+    position: relative;
+}
+
+.nav a::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: all linear .2s;
+    width: 0%;
+    height: 2px;
+}
+.nav li:hover a::before {
+    width: 100%;
+    background-color: #ccc;
+}
+/*
+.nav a::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    transition: all linear .2s;
+    height: 2px;
+    width: 100%;
+    background-color: #ccc;
+    transform: scaleX(0);
+}
+.nav li:hover a::before {
+    transform: scaleX(1);
+}
+*/
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
