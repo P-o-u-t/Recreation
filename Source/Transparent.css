@@ -827,3 +827,7 @@ form .bf-toolbar{transform: translate(-3px,-45px) !important;}
 .ui-standard-sidebar-view .custom-scroller {
     background: transparent !important;
 }
+
+.guilds-wrapper .guilds { padding: 0px 0px 70px 10px !important;}
+    
+.guilds-wrapper .scroller-wrap { margin-top: 48px !important;}
