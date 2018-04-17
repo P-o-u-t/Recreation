@@ -77,7 +77,7 @@ ul a {
 .nav li {
     position: relative;
 }
-
+/*s
 .nav a::before{
     content: '';
     position: absolute;
@@ -91,7 +91,7 @@ ul a {
     width: 100%;
     background-color: #ccc;
 }
-/*
+*/
 .nav a::before{
     content: '';
     position: absolute;
@@ -105,7 +105,7 @@ ul a {
 .nav li:hover a::before {
     transform: scaleX(1);
 }
-*/
+
 h2 {
     font-size: 1.5em;
     text-transform: uppercase;
