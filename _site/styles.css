@@ -27,12 +27,22 @@ body::-webkit-scrollbar {
 /* Track */
 body::-webkit-scrollbar-track {
     border-radius: 2px;
+    background: transparent;
+    transition: all ease 0.2s;
+}
+
+body:hover::-webkit-scrollbar-track {
     background: #444;
 }
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
     border-radius: 2px;
+    background: transparent;
+    transition: all ease 0.2s;
+}
+
+body:hover::-webkit-scrollbar-thumb {
     background: #777;
 }
 
