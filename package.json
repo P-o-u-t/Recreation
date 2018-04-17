@@ -1,0 +1,21 @@
+{
+  "name": "recreation",
+  "version": "1.0.0",
+  "description": "A collective of themes and such combined into one project.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P-o-u-t/Recreation.git"
+  },
+  "author": "P-o-u-t",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/P-o-u-t/Recreation/issues"
+  },
+  "homepage": "https://github.com/P-o-u-t/Recreation#readme",
+  "dependencies": {
+    "stylus": "^0.54.5"
+  }
+}
