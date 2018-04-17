@@ -29,13 +29,13 @@ body::-webkit-scrollbar {
 /* Track */
 body::-webkit-scrollbar-track {
     border-radius: 2px;
-    background: #222;
-}   
- 
+    background: #444;
+}
+
 /* Handle */
 body::-webkit-scrollbar-thumb {
     border-radius: 2px;
-    background: #ccc;
+    background: #777;
 }
 
 .wrapper {
@@ -77,26 +77,11 @@ ul a {
 .nav li {
     position: relative;
 }
-/*s
 .nav a::before{
     content: '';
     position: absolute;
     bottom: -5px;
-    left: 0;
-    transition: all linear .2s;
-    width: 0%;
-    height: 2px;
-}
-.nav li:hover a::before {
-    width: 100%;
-    background-color: #ccc;
-}
-*/
-.nav a::before{
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    transition: all linear .2s;
+    transition: all linear .1s;
     height: 2px;
     width: 100%;
     background-color: #ccc;
