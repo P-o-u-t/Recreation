@@ -4,7 +4,8 @@
   "description": "A collective of themes and such combined into one project.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "stylus -c -o ./dist ./src"
+    "build": "stylus -c -o ./dist ./src",
+    "build-dev": "stylus -o ./dev ./src"
   },
   "repository": {
     "type": "git",
