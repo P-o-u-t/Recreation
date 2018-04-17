@@ -1,5 +1,11 @@
 // put helpful mixins in here
 
-transparent() {
+transparent()
     background-color: transparent !important
-}
+
+tags(id, name, bgcolor, textcolor)
+    .message-group .avatar-large[style*={id}] ~ .comment .username-wrapper::after
+        background-color: bgcolor
+        color: textcolor
+        content: name
+
