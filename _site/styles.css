@@ -137,10 +137,6 @@ h2 {
     -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 57%,rgba(0,0,0,1) 58%,rgba(0,0,0,0) 75%);
 }
 
-.credit-move:hover {
-    animation-play-state: paused;
-}
-
 .dev {
     height: 5em;
     width: 5em;
@@ -180,6 +176,9 @@ h2 {
     box-sizing: auto;
     animation: marquee 10s linear infinite;
     overflow: visible;
+}
+.credit-move:hover {
+    animation-play-state: paused;
 }
 
 @keyframes marquee {
