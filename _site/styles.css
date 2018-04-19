@@ -128,6 +128,8 @@ h2 {
 .credit-wrap {
     mask-image: linear-gradient(to right, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 57%,rgba(0,0,0,1) 58%,rgba(0,0,0,0) 75%);
     -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 57%,rgba(0,0,0,1) 58%,rgba(0,0,0,0) 75%);
+    display: flex;
+    justify-content: center;
     height: 6em;
     width: 100%;
     margin-top: 3em;
@@ -135,6 +137,21 @@ h2 {
     padding-top: 1em;
     padding-bottom: 10px;
     position: relative;
+}
+
+.credit-move {
+    animation: marquee 14s linear infinite;
+    box-sizing: auto;
+    position: relative;
+    overflow: visible;
+}
+.credit-move:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
 }
 
 .dev {
@@ -167,21 +184,4 @@ h2 {
     position: absolute;
     top: -15px;
     overflow: visible;
-}
-
-.credit-move {
-    animation: marquee 10s linear infinite;
-    box-sizing: auto;
-    position: relative;
-    left: 6em;
-    overflow: visible;
-}
-
-.credit-move:hover {
-    animation-play-state: paused;
-}
-
-@keyframes marquee {
-    0%   { left: 70% }
-    100% { left: -20%; }
 }
