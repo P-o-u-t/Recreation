@@ -63,6 +63,13 @@ body:hover::-webkit-scrollbar-thumb {
     margin-top: 70px;
     padding-bottom: 30px;
 }
+.first {
+    height: 103%;
+    width: 100%;
+    border: 2px solid #ccc;
+    padding-left: 9px;
+    margin-right: 10px;
+}
 
 .nav ul {
     list-style: none;
