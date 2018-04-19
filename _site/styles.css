@@ -155,11 +155,11 @@ h2 {
     overflow: visible;
 }
 
-.dev.izy { background-image: url("https://avatars1.githubusercontent.com/u/628576?s=460&v=4"); }
-.dev.dingus { background-image: url("https://avatars0.githubusercontent.com/u/28424612?s=460&v=4"); }
-.dev.kya { background-image: url("https://avatars1.githubusercontent.com/u/33615505?s=460&v=4"); }
-.dev.intrnl { background-image: url("https://avatars1.githubusercontent.com/u/20620901?s=460&v=4"); }
-.dev.monster { background-image: url("https://avatars0.githubusercontent.com/u/35366433?s=460&v=4"); }
+.dev.izy { background-image: url("https://avatars1.githubusercontent.com/u/628576"); }
+.dev.dingus { background-image: url("https://avatars0.githubusercontent.com/u/28424612"); }
+.dev.kya { background-image: url("https://avatars1.githubusercontent.com/u/33615505"); }
+.dev.intrnl { background-image: url("https://avatars1.githubusercontent.com/u/20620901"); }
+.dev.monster { background-image: url("https://avatars0.githubusercontent.com/u/35366433"); }
 .dev.cinder { background-image: url(); }
 .dev.cubeguy { background-image: url(assets/devs/cubeguy.jpg); }
 
