@@ -176,6 +176,7 @@ h2 {
     left: 6em;
     overflow: visible;
 }
+
 .credit-move:hover {
     animation-play-state: paused;
 }
