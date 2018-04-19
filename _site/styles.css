@@ -134,7 +134,7 @@ h2 {
     padding-bottom: 10px;
     padding-top: 1em;
     mask-image: linear-gradient(to right, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 57%,rgba(0,0,0,1) 58%,rgba(0,0,0,0) 75%);
-   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 57%,rgba(0,0,0,1) 58%,rgba(0,0,0,0) 75%);
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 57%,rgba(0,0,0,1) 58%,rgba(0,0,0,0) 75%);
 }
 
 .credit-move:hover {
@@ -161,13 +161,13 @@ h2 {
 .dev.intrnl { background-image: url("https://avatars1.githubusercontent.com/u/20620901"); }
 .dev.monster { background-image: url("https://avatars0.githubusercontent.com/u/35366433"); }
 .dev.cinder { background-image: url(); }
-.dev.cubeguy { background-image: url(assets/devs/cubeguy.jpg); }
+.dev.cubeguy { background-image: url("assets/devs/cubeguy.jpg"); }
 
 .dev.kya::before {
     content: '';
     position: absolute;
     top: -15px;
-    background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><g fill='none' fill-rule='evenodd'><path fill='#ffffff' fill-rule='nonzero' d='M2,11 L0,0 L5.5,7 L9,0 L12.5,7 L18,0 L16,11 L2,11 L2,11 Z M16,14 C16,14.5522847 15.5522847,15 15,15 L3,15 C2.44771525,15 2,14.5522847 2,14 L2,13 L16,13 L16,14 Z' transform='translate(3 4)'/><rect width='24' height='24'/></g></svg>") no-repeat;
+    background: url("assets/devs/crown.svg") no-repeat;
     background-position: center;
     height: 1em;
     width: 5em;
