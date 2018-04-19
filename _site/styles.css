@@ -133,7 +133,12 @@ h2 {
     margin-left: 0;
     position: relative;
     padding-bottom: 10px;
+    padding-top: 1em;
    -webkit-mask-image:linear-gradient(to right, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 57%,rgba(0,0,0,1) 58%,rgba(0,0,0,0) 75%);
+}
+
+.credit-move:hover {
+    animation-play-state: paused;
 }
 
 .dev {
@@ -147,6 +152,7 @@ h2 {
     margin-left: 10px;
     margin-top: 10px;
     float: left;
+    overflow: visible;
 }
 
 .dev.izy {background-image: url(assets/devs/izy.png)}
@@ -160,9 +166,11 @@ h2 {
     content: '';
     position: absolute;
     top: -15px;
-    background-image: url(assets/devs/crown.svg);
-    height: 100%;
-    width: 100%;
+    background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><g fill='none' fill-rule='evenodd'><path fill='#ffffff' fill-rule='nonzero' d='M2,11 L0,0 L5.5,7 L9,0 L12.5,7 L18,0 L16,11 L2,11 L2,11 Z M16,14 C16,14.5522847 15.5522847,15 15,15 L3,15 C2.44771525,15 2,14.5522847 2,14 L2,13 L16,13 L16,14 Z' transform='translate(3 4)'/><rect width='24' height='24'/></g></svg>") no-repeat;
+    background-position: center;
+    height: 1em;
+    width: 5em;
+    overflow: visible;
 }
 
 .credit-move {
@@ -170,9 +178,10 @@ h2 {
     position: relative;
     box-sizing: auto;
     animation: marquee 10s linear infinite;
+    overflow: visible;
 }
 
 @keyframes marquee {
     0%   { left: 70% }
     100% { left: -20%; }
-    }
+}
