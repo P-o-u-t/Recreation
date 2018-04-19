@@ -1,22 +1,22 @@
-html,
-body {
+html, body {
     margin: 0;
 }
+
 /* For the "inset" look only */
 html {
     overflow: auto;
 }
 body {
+    background-color: #191919;
+    color: #ccc;
+    padding-right: 30px; 
     position: absolute;
     top: 20px;
     left: 20px;
     bottom: 20px;
     right: 20px;
-    padding-right: 30px; 
     overflow-y: scroll;
     overflow-x: hidden;
-    background-color: #191919;
-    color: #ccc;
 }
 
 /* Let's get this party started */
@@ -26,9 +26,9 @@ body::-webkit-scrollbar {
 
 /* Track */
 body::-webkit-scrollbar-track {
-    border-radius: 2px;
     background: transparent;
     transition: all ease 0.2s;
+    border-radius: 2px;
 }
 
 body:hover::-webkit-scrollbar-track {
@@ -37,9 +37,9 @@ body:hover::-webkit-scrollbar-track {
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
-    border-radius: 2px;
     background: transparent;
     transition: all ease 0.2s;
+    border-radius: 2px;
 }
 
 body:hover::-webkit-scrollbar-thumb {
@@ -47,19 +47,19 @@ body:hover::-webkit-scrollbar-thumb {
 }
 
 .wrapper {
-    position: relative;
-    max-width: 1100px;
-    width: 100%;
-    margin: 0 auto;
     height: 120vh;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
 }
 .title {
-    font-size: 2.3em;
-    text-align: center;
-    text-transform: uppercase;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
     font-weight: 200;
     letter-spacing: .3em;
+    text-align: center;
+    text-transform: uppercase;
     margin-top: 70px;
     padding-bottom: 30px;
 }
@@ -67,86 +67,86 @@ body:hover::-webkit-scrollbar-thumb {
     height: 103%;
     width: 100%;
     border: 2px solid #ccc;
-    padding-left: 9px;
     margin-right: 10px;
+    padding-left: 9px;
 }
 
 .nav ul {
     list-style: none;
-    margin: 0;
-    padding: 30px 0;
-    border-bottom: solid #ccc 2px;
-    border-top: solid #ccc 2px;
-    text-transform: uppercase;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: 200;
     font-size: 1.2em;
+    font-weight: 200;
+    text-transform: uppercase;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 0;
+    padding: 30px 0;
+    border-top: solid #ccc 2px;
+    border-bottom: solid #ccc 2px;
 }
 ul a, a {
-    text-decoration: none;
     color: #ccc;
+    text-decoration: none;
 }
-a.link{ border-bottom:1px dotted #ccc; }
+a.link { border-bottom:1px dotted #ccc; }
 .nav li {
     position: relative;
 }
 .nav a::before{
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    transition: all linear .1s;
-    height: 2px;
-    width: 100%;
     background-color: #ccc;
     transform: scaleX(0);
+    transition: all linear .1s;
+    content: '';
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
 }
 .nav li:hover a::before {
     transform: scaleX(1);
 }
 
 h2 {
-    font-size: 1.5em;
-    text-transform: uppercase;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
     text-align: center;
+    text-transform: uppercase;
     padding-top: 100px;
 }
 
 #particles-js {
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background: transparent;
     pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .credit-wrap {
-    margin-top: 3em;
-    width: 100%;
-    height: 6em;
-    margin-left: 0;
-    position: relative;
-    padding-bottom: 10px;
-    padding-top: 1em;
     mask-image: linear-gradient(to right, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 57%,rgba(0,0,0,1) 58%,rgba(0,0,0,0) 75%);
     -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 57%,rgba(0,0,0,1) 58%,rgba(0,0,0,0) 75%);
+    height: 6em;
+    width: 100%;
+    margin-top: 3em;
+    margin-left: 0;
+    padding-top: 1em;
+    padding-bottom: 10px;
+    position: relative;
 }
 
 .dev {
-    height: 5em;
-    width: 5em;
-    border: 1px solid #333;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    position: inline-block;
-    margin-left: 10px;
+    height: 5em;
+    width: 5em;
     margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #333;
+    position: inline-block;
     float: left;
     overflow: visible;
 }
@@ -160,21 +160,20 @@ h2 {
 .dev.cubeguy { background-image: url("assets/devs/cubeguy.jpg"); }
 
 .dev.kya::before {
+    background: url("assets/devs/crown.svg") center no-repeat;
     content: '';
-    position: absolute;
-    top: -15px;
-    background: url("assets/devs/crown.svg") no-repeat;
-    background-position: center;
     height: 1em;
     width: 5em;
+    position: absolute;
+    top: -15px;
     overflow: visible;
 }
 
 .credit-move {
-    left: 6em;
-    position: relative;
-    box-sizing: auto;
     animation: marquee 10s linear infinite;
+    box-sizing: auto;
+    position: relative;
+    left: 6em;
     overflow: visible;
 }
 .credit-move:hover {
