@@ -161,6 +161,7 @@ h2 {
 .dev.intrnl {background-image: url(assets/devs/intrnl.png)}
 .dev.monster {background-image: url(assets/devs/elle.jpg)}
 .dev.cinder {background-image: url()}
+.dev.cubeguy {background-image: url(assets/devs/cubeguy.jpg)}
 
 .dev.kya::before {
     content: '';
