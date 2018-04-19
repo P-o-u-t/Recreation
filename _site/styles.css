@@ -89,7 +89,7 @@ ul a, a {
     text-decoration: none;
     color: #ccc;
 }
-a.link{border-bottom:1px dotted #ccc;}
+a.link{ border-bottom:1px dotted #ccc; }
 .nav li {
     position: relative;
 }
@@ -125,3 +125,54 @@ h2 {
     pointer-events: none;
     opacity: 0.3;
 }
+
+.credit-wrap {
+    margin-top: 3em;
+    width: 100%;
+    height: 6em;
+    margin-left: 0;
+    position: relative;
+    padding-bottom: 10px;
+   -webkit-mask-image:linear-gradient(to right, rgba(0,0,0,0) 25%, rgba(0,0,0,1) 57%,rgba(0,0,0,1) 58%,rgba(0,0,0,0) 75%);
+}
+
+.dev {
+    height: 5em;
+    width: 5em;
+    border: 1px solid #333;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.dev.izy {background-image: url(assets/devs/izy.png)}
+.dev.dingus {background-image: url(assets/devs/dingus.png)}
+.dev.kya {background-image: url(assets/devs/pout.jpg)}
+.dev.intrnl {background-image: url(assets/devs/intrnl.png)}
+.dev.monster {background-image: url(assets/devs/elle.jpg)}
+.dev.cinder {background-image: url()}
+
+.dev.kya::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    background-image: url(assets/devs/crown.svg);
+    height: 100%;
+    width: 100%;
+}
+
+.credit-move {
+    left: 6em;
+    position: relative;
+    box-sizing: auto;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0%   { left: 70% }
+    100% { left: -20%; }
+    }
