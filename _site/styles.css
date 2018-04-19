@@ -78,10 +78,11 @@ body:hover::-webkit-scrollbar-thumb {
     flex-direction: row;
     justify-content: space-evenly;
 }
-ul a {
+ul a, a {
     text-decoration: none;
     color: #ccc;
 }
+a.link{border-bottom:1px dotted #ccc;}
 .nav li {
     position: relative;
 }
@@ -105,4 +106,15 @@ h2 {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 100px;
+}
+
+#particles-js {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    pointer-events: none;
+    opacity: 0.3;
 }
