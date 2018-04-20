@@ -1,0 +1,14 @@
+.wordmark-2L03Wr {
+  opacity: 1; }
+  .wordmark-2L03Wr svg {
+    display: none; }
+  .wordmark-2L03Wr::after {
+    content: 'Default theme';
+    font-size: 18px;
+    color: #eee;
+    font-family: inherit;
+    pointer-events: none;
+    text-transform: uppercase; }
+
+.wordmark-2L03Wr::after {
+  content: 'transparent'; }
