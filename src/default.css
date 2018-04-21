@@ -1,5 +1,8 @@
 #RANbutton-frame {
-  height: 50px !important; }
+  height: 50px !important;
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 0;
+  order: 0; }
   #RANbutton-frame .guild-inner {
     -webkit-transition: all linear .1s;
     -o-transition: all linear .1s;
