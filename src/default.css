@@ -8,10 +8,16 @@
     height: 50px !important; }
     #RANbutton-frame .guild-inner:hover {
       border-radius: 15px !important; }
+    #RANbutton-frame .guild-inner a {
+      padding-top: 5px;
+      -webkit-transition: all linear .1s;
+      -o-transition: all linear .1s;
+      transition: all linear .1s; }
+      #RANbutton-frame .guild-inner a:hover {
+        background-color: #7289da !important; }
   #RANbutton-frame #RANbutton {
     font-size: 0.8em !important;
-    text-transform: uppercase;
-    margin-top: 5px; }
+    text-transform: uppercase; }
 
 .base-3AoPqv {
   border-radius: 0; }
