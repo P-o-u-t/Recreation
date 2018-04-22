@@ -1,0 +1,81 @@
+#RANbutton-frame {
+  height: 50px !important; }
+  #RANbutton-frame .guild-inner {
+    -webkit-transition: all linear .1s;
+    -o-transition: all linear .1s;
+    transition: all linear .1s;
+    border-radius: 50% !important;
+    height: 50px !important; }
+    #RANbutton-frame .guild-inner:hover {
+      border-radius: 15px !important; }
+    #RANbutton-frame .guild-inner a {
+      padding-top: 5px;
+      -webkit-transition: all linear .1s;
+      -o-transition: all linear .1s;
+      transition: all linear .1s; }
+      #RANbutton-frame .guild-inner a:hover {
+        background-color: #7289da !important; }
+  #RANbutton-frame #RANbutton {
+    font-size: 0.8em !important;
+    text-transform: uppercase; }
+
+.base-3AoPqv {
+  border-radius: 0; }
+
+.guilds {
+  padding-top: 20px !important; }
+  .guilds .guild.guilds-add {
+    border-style: solid; }
+  .guilds .friends-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg fill="#ffffff" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"/></svg>') !important;
+    background-size: 30px 30px !important;
+    margin: 0 auto; }
+  .guilds > .guild:first-child {
+    position: absolute;
+    z-index: 2;
+    width: 70px;
+    height: 48px;
+    left: 0;
+    top: 0;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 2px 0 rgba(0, 0, 0, 0.06); }
+    .guilds > .guild:first-child .guild-inner {
+      border-radius: 0 !important;
+      height: 48px; }
+      .guilds > .guild:first-child .guild-inner ~ .badge {
+        left: 0;
+        bottom: 0 !important;
+        right: 0 !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background: none;
+        text-align: center;
+        border-radius: 0;
+        font-size: 15px;
+        text-shadow: none; }
+      .guilds > .guild:first-child .guild-inner a {
+        width: 100%;
+        height: 100%; }
+
+.unread-mentions-indicator-top {
+  top: 45px; }
+
+.unread-mentions-indicator-bottom .unread-mentions-bar,
+.unread-mentions-indicator-top .unread-mentions-bar {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.wordmark-2L03Wr {
+  opacity: 1; }
+  .wordmark-2L03Wr svg {
+    display: none; }
+  .wordmark-2L03Wr::after {
+    content: 'Default theme';
+    font-size: 18px;
+    color: #eee;
+    font-family: inherit;
+    pointer-events: none;
+    text-transform: uppercase; }
+
+.wordmark-2L03Wr::after {
+  content: 'flat'; }
