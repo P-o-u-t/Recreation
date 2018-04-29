@@ -1,7 +1,32 @@
 .guilds
-    padding-top: 20px !important
-    .guild.guilds-add
-        border-style: solid
+    padding-top: 50px !important
+    .guild-separator::after
+        background-color: $accent
+        opacity: 0.8
+    .guild
+        &.guild-placeholder
+            border-style: solid
+            border-color: $accent
+        &.active .guild-inner
+            background-color: $main !important
+        &.guilds-add
+            border-style: solid
+            border-color: $accent
+            color: $accent
+        &.unread::before
+            background-color: $accent !important
+            opacity: 0.7
+        &.selected
+            .guild-inner
+                border-radius: $roundh !important
+            &::before
+                background-color: $accent !important
+                opacity: 0.8
+        .guild-inner
+            border-radius: $round !important
+            transition: all linear .2s
+        &:hover .guild-inner
+            border-radius: $roundh !important
     .friends-icon
         background-image: url('data:image/svg+xml;charset=UTF-8,<svg fill="#ffffff" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"/></svg>') !important
         background-size: 30px 30px !important
@@ -17,6 +42,9 @@
         .guild-inner
             border-radius: 0 !important
             height: 48px
+            transition: all linear .2s
+            &:hover
+                background-color: $accent !important
             &~.badge
                 left: 0
                 bottom: 0 !important
@@ -36,3 +64,10 @@
 .unread-mentions-indicator-bottom .unread-mentions-bar,
 .unread-mentions-indicator-top .unread-mentions-bar
     box-shadow: none
+
+.friends-online
+    position: absolute
+    z-index: 3
+    top: -10px;
+    color: #fff !important;
+

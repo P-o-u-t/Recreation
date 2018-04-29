@@ -1,19 +1,26 @@
 // plugin styling
 
-// read all
-#RANbutton-frame
+// read all / public servers button
+#RANbutton-frame,
+#bd-pub-li
     height: 50px !important
     .guild-inner
         transition: all linear .1s
-        border-radius: 50% !important
+        border-radius: $round !important
         height: 50px !important
+        background-color: $main
         &:hover
-            border-radius: 15px !important
+            border-radius: $roundh !important
         a
             padding-top: 5px
             transition: all linear .1s
             &:hover
-                background-color: rgb(114, 137, 218) !important
-    #RANbutton
-        font-size: 0.8em !important
-        text-transform: uppercase
+                background-color: $accent !important
+#RANbutton
+    font-size: 0.8em !important
+    text-transform: uppercase
+
+#bd-pub-button
+    text-transform: uppercase
+    font-size: 0.8em !important
+    line-height: 40px !important;
