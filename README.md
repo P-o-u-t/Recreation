@@ -8,4 +8,4 @@
 
 # **Need help?**
 #### **You got it! Join us on Discord:**
-> https://discord.gg/H8Jyszq
+> https://discord.gg/VJGqRXp
